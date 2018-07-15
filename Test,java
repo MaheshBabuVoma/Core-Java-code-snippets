@@ -1,0 +1,11 @@
+public class Test {
+	public static void main(String[] args) {
+		method(null);
+	}
+	public static void method(Object obj) {
+		System.out.println("considering null parameter as Object");
+	}
+	public static void method(String str) {
+		System.out.println("considering null parameter as String");
+	}
+}
